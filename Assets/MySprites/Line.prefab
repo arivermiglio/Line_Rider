@@ -179,7 +179,7 @@ EdgeCollider2D:
   m_GameObject: {fileID: 1696624806077259904}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 529dc3665365f8d488dd54148e0aef1f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -218,6 +218,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 030be2d0abe209148975292ed617aba8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  showGizmo: 1
+  gizmoSize: 0.1
+  gizmoColor: {r: 1, g: 0, b: 0, a: 0.5}
 --- !u!114 &-8317567113027186210
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -230,6 +233,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5253f49e26abe4c439090de4245f8685, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lineSegmentSize: 0.15
+  lineWidth: 0.1
+  showGizmos: 1
+  gizmoSize: 0.1
+  gizmoColor: {r: 1, g: 0, b: 0, a: 0.5}
 --- !u!114 &2791868656628658652
 MonoBehaviour:
   m_ObjectHideFlags: 0
