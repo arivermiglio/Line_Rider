@@ -12,6 +12,9 @@ GameObject:
   - component: {fileID: 1696624806077259910}
   - component: {fileID: 1696624806077259905}
   - component: {fileID: 1696624806077259908}
+  - component: {fileID: -8173148984691317327}
+  - component: {fileID: -8317567113027186210}
+  - component: {fileID: 2791868656628658652}
   m_Layer: 0
   m_Name: Line
   m_TagString: Untagged
@@ -83,14 +86,50 @@ LineRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0
-        value: 0.15131569
+        time: 0.11666489
+        value: 0.12274361
         inSlope: 0
         outSlope: 0
         tangentMode: 0
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.25370368
+        value: 0.3
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.5092593
+        value: 0.51428574
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.7703704
+        value: 0.4
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.93703705
+        value: 0.15714286
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -167,3 +206,39 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lineRenderer: {fileID: 1696624806077259910}
   edgeCollider: {fileID: 1696624806077259905}
+--- !u!114 &-8173148984691317327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1696624806077259904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 030be2d0abe209148975292ed617aba8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-8317567113027186210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1696624806077259904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5253f49e26abe4c439090de4245f8685, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2791868656628658652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1696624806077259904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64fa21894a7ba474eb832a5fe8bef765, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
