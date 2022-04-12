@@ -41,7 +41,13 @@ public class Line : MonoBehaviour
         lineRenderer.positionCount = points.Count;
         // 2. add the point to the last index
         lineRenderer.SetPosition(points.Count - 1, point);
-        edgeCollider.points = points.ToArray();
+
+        // make sure we have at least 2 points to make a line
+        if (points.Count > 1)
+        {
+            edgeCollider.points = points.ToArray();
+        }
+
 
 
     }
